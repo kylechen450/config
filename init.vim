@@ -31,9 +31,12 @@ Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 Plug 'klen/python-mode'
+Plug 'wikitopian/hardmode'
 " Initialize plugin system
 call plug#end()
 
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
 set background=dark
 colorscheme solarized
