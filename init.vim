@@ -31,6 +31,10 @@ Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 Plug 'klen/python-mode'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-fugitive'
+Plug 'jmcantrell/vim-virtualenv'
 Plug 'wikitopian/hardmode'
 " Initialize plugin system
 call plug#end()
