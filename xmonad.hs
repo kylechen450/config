@@ -13,6 +13,7 @@ main = xmonad =<< xmobar desktopConfig
     , normalBorderColor = "#000000"
     , layoutHook = avoidStruts $ myLayout
     , manageHook=manageHook defaultConfig <+> manageDocks
+    , startupHook = spawn "~/.fehbg &"
     }
 
 myLayout = tiled ||| Mirror tiled ||| Full
@@ -21,3 +22,4 @@ myLayout = tiled ||| Mirror tiled ||| Full
   	 	 nmaster = 1
   	 	 ratio = 1/2
   	 	 delta = 3/100
+
