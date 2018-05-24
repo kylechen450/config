@@ -1,0 +1,26 @@
+/* XPM */
+static char *media_playlist_repeat_symbolic_rtl[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"  X.XXXXXXXXoo  ",
+" .XXXXXXXXXXXXX ",
+" oX          Xo ",
+" XX          XX ",
+" XX          XX ",
+" XX          XX ",
+" XX  XX      XX ",
+" oX  XXX     XX ",
+" oXXXXXX.  XXXX ",
+"  ooXXXX.  XXX  ",
+"     XXX        ",
+"     X.         ",
+"                "
+};

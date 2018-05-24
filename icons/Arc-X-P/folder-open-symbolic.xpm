@@ -1,0 +1,26 @@
+/* XPM */
+static char *folder_open_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+".XXXX.          ",
+"XXXXXX          ",
+"XXXXXXXXXXXXXo  ",
+"XXXXXXXXXXXXXX  ",
+"XXXX            ",
+"XXX. XXXXXXXXXXX",
+"XXX. XXXXXXXXXXX",
+"XXX oXXXXXXXXXXo",
+"XXX XXXXXXXXXXX ",
+"XX. XXXXXXXXXXX ",
+"XX. XXXXXXXXXX. ",
+"XX .XXXXXXXXXXX ",
+"XX XXXXXXXXXXX  ",
+"XXXXXXXXXXXXXX  ",
+".XXXXXXXXXXXX.  "
+};

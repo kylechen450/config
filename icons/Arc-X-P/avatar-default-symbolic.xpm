@@ -1,0 +1,25 @@
+/* XPM */
+static char *avatar_default_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+/* pixels */
+"                ",
+"      XXXX      ",
+"     XXXXXX     ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXX.    ",
+"     XXXXXX     ",
+"     .XXXXX     ",
+"      XXXX      ",
+"      XXXX      ",
+"     XXXXX.     ",
+"   .XXXXXXXXX   ",
+" XXXXXXXXXXXXXX ",
+"XXXXXXXXXXXXXXX."
+};

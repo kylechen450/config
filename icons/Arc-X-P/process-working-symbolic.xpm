@@ -1,0 +1,26 @@
+/* XPM */
+static char *process_working_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"     .XXX.o     ",
+"    .XXXXXX.    ",
+"   XXX    oXX   ",
+"  .X        Xo  ",
+" .XX        .XX ",
+" XX          X. ",
+" XX          X. ",
+" .X             ",
+" XX             ",
+" oXo            ",
+"  .X            ",
+"   XX.          ",
+"    oXXX        ",
+"     XoX        ",
+"                "
+};

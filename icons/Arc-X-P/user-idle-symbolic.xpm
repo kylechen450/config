@@ -1,0 +1,26 @@
+/* XPM */
+static char *user_idle_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"     oXXXXo     ",
+"   XXXXXXXXX.   ",
+"  XXXo    XXX.  ",
+"  X.        XX  ",
+" oXo         XX ",
+" oX          XX ",
+" oX          XX ",
+" XX.        .X. ",
+"  XX        XX  ",
+"  .XoX    .oXX  ",
+"   oXXXXXXXXXo  ",
+"     XXoXXXXoX  ",
+"              . ",
+"                "
+};

@@ -1,0 +1,25 @@
+/* XPM */
+static char *network_vpn_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #545454",
+"X c #555555",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"  X.XX          ",
+" XXXXXX.        ",
+"XXXXXXXX        ",
+".XX   XXXXXXXXXX",
+"XXX   XXXXXXXXXX",
+".XX   XXXXXXXXXX",
+".XXXXXXX    XXX ",
+" .XXXXX.    XXX ",
+"  X.X.          ",
+"                ",
+"                ",
+"                "
+};

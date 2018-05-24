@@ -1,0 +1,29 @@
+/* XPM */
+static char *software_update_urgent_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 7 1 ",
+"  c None",
+". c #F57D41",
+"X c #F77D41",
+"o c #F57D42",
+"O c #F67D42",
+"+ c #F77D42",
+"@ c #F77D43",
+/* pixels */
+"                ",
+"       @.       ",
+"      OOO@      ",
+"   o+oOOOOo+o   ",
+"   OOOO  OOOO   ",
+"   OOOO  OOOO   ",
+"  OOOOO  OOOO@  ",
+" @OOOOO  OOOOOo ",
+" oOOOOO  OOOOOO ",
+"  +OOOOOOOOOOX  ",
+"   +OOO  OOO+   ",
+"   OOOO  OOOO   ",
+"   o+oOOOOo+o   ",
+"      +OOo      ",
+"       +.       ",
+"                "
+};

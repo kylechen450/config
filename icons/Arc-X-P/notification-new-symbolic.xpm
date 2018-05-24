@@ -1,0 +1,25 @@
+/* XPM */
+static char *notification_new_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #ED4736",
+"X c #ED4737",
+/* pixels */
+"                ",
+"       .X       ",
+"      XXXX      ",
+"     XXXXXX     ",
+"    XXXXXXX.    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"    XXXXXXXX    ",
+"   .XXXXXXXXX   ",
+"  XXXXXXXXXXXX  ",
+"                ",
+"       X.       ",
+"                ",
+"                "
+};

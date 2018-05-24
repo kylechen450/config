@@ -1,0 +1,28 @@
+/* XPM */
+static char *printer_error_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1 ",
+"  c None",
+". c #ED4737",
+"X c #ED4837",
+"o c #ED4738",
+"O c #BEBEBE",
+"+ c #BFBFBF",
+/* pixels */
+"                ",
+"    OOOOOOOO    ",
+"    OOOOOOOO    ",
+"                ",
+" +OOOOOOOOOOOO+ ",
+" OOOOOOOOOOOOOO ",
+" OOOOOOOOOOOOOO ",
+" OOOOOOOOOOOOOO ",
+" OO             ",
+" +O OOO+   o.o  ",
+"    OOO+  ..... ",
+"    OOOO X......",
+"    OOOO .     .",
+"    OOOO X......",
+"          ..... ",
+"           ...  "
+};

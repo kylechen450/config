@@ -1,0 +1,26 @@
+/* XPM */
+static char *network_wireless_signal_ok_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"     XXXXXX     ",
+"   XoXXXXXXoX   ",
+"   XXXXXXXXXX   ",
+"    XXXXXXXo    ",
+"     XXXXXo     ",
+"      oXXX      ",
+"      oXXo      ",
+"       ..       ",
+"                ",
+"                "
+};

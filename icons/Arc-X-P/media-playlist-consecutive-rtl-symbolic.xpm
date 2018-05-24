@@ -1,0 +1,25 @@
+/* XPM */
+static char *media_playlist_consecutive_rtl_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"   XX           ",
+"  XX.           ",
+" .XXXXXXXXXXXXX ",
+" .XXXXXXXXXXXXX ",
+"  XXX           ",
+"   XX           ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                "
+};

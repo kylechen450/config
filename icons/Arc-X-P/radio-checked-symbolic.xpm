@@ -1,0 +1,26 @@
+/* XPM */
+static char *radio_checked_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"      XXXX      ",
+"    X.    XX    ",
+"   X        .   ",
+"  o          X  ",
+" Xo   X...   .  ",
+" X   XXXXXo   o ",
+" X   XXXXXo   X ",
+" X   .XXXXX   X ",
+" X   .XXXXX   X ",
+" .X   oooX   X  ",
+"  .          X  ",
+"   X        o   ",
+"    .     X.    ",
+"     .XooXX     ",
+"                "
+};

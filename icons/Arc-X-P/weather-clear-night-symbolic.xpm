@@ -1,0 +1,26 @@
+/* XPM */
+static char *weather_clear_night_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"      XXX       ",
+"    XXXX        ",
+"   .X .o        ",
+"   X  XX        ",
+"  XX  .o        ",
+"  X.   X        ",
+"  X.   Xo       ",
+"  X.    XX.X.X  ",
+"   X      .XX   ",
+"   .X      Xo   ",
+"    .XXoooXX    ",
+"      oXoX      ",
+"                ",
+"                "
+};

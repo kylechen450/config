@@ -1,0 +1,26 @@
+/* XPM */
+static char *microphone_sensitivity_high_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"    .Xo     XX  ",
+"   XXXXX   XXX. ",
+"   oXXXo   XXX. ",
+"   XXXXX    X.  ",
+" o XXXXX X      ",
+" o XXXXX X  XX  ",
+" o XXXXX X XXX. ",
+" X oXXXX X XXX. ",
+" X .XXXo o  X.  ",
+" .X oXX .X      ",
+"  oX   .X   XX  ",
+"   oXXX.   XXX. ",
+"    XXX    XXX. ",
+" XXXXXXXXo  X.  ",
+" XXXXXXXXX      "
+};

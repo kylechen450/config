@@ -1,0 +1,26 @@
+/* XPM */
+static char *semi_starred_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"       o        ",
+"       X        ",
+"       X        ",
+"      XX        ",
+"      XX        ",
+"oX.XXXXX        ",
+"  oXXXXX        ",
+"   XXXXX        ",
+"    oXXX        ",
+"    XXXX        ",
+"    .XXX        ",
+"    XXXX        ",
+"    XX          ",
+"   oX           ",
+"                "
+};

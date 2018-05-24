@@ -1,0 +1,26 @@
+/* XPM */
+static char *battery_caution_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #EC4736",
+"X c #ED4737",
+"o c #ED4836",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"   oXXXXXXXX.   ",
+"                "
+};

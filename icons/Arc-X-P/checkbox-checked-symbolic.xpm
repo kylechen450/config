@@ -1,0 +1,26 @@
+/* XPM */
+static char *checkbox_checked_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"  oXXXXXXXXXXX  ",
+" X            o ",
+" o           .o ",
+" X          oXX ",
+" X         oXXX ",
+" X        XXXXX ",
+" X   .Xo XXXXoX ",
+" X   XXXXXXXo X ",
+" X   oXXXXXo  X ",
+" X    oXXXX   X ",
+" X     XXX    X ",
+" o            o ",
+" o            X ",
+"  XXXXXXXXXXXX  ",
+"                "
+};

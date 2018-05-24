@@ -1,0 +1,25 @@
+/* XPM */
+static char *media_playlist_shuffle_rtl_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+/* pixels */
+"                ",
+"   XX           ",
+"  XX.           ",
+" .XXXXXX  X.XXX ",
+" .XXXXX. .XXXXX ",
+"  XXX    XX     ",
+"   XX    XX     ",
+"         XX     ",
+"         XX     ",
+"   XX    XX     ",
+"  XX.    XX     ",
+" .XXXXXXXXX XXX ",
+" .XXXXXXXX  XXX ",
+"  XXX           ",
+"   XX           ",
+"                "
+};

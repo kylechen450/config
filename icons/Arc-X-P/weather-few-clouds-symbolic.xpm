@@ -1,0 +1,26 @@
+/* XPM */
+static char *weather_few_clouds_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"      X    o    ",
+"      X   .X    ",
+"      XXX.      ",
+" XX .XoXX.XX    ",
+"  . Xo    .X    ",
+"   Xo      .ooX ",
+"   XX      o.   ",
+"   X.           ",
+" XoXX      ooo  ",
+"    X.    XXXXX ",
+"     XX .XXXXXXX",
+"       XXXXXXXX.",
+"    Xo XXXXXXXXX",
+"    o  .XXXXXXX ",
+"        ooXXoX  "
+};

@@ -1,0 +1,25 @@
+/* XPM */
+static char *weather_overcast_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c None",
+". c #BEBEBE",
+"X c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"     XXX.       ",
+"    .......     ",
+"    .......XX   ",
+"   ...........  ",
+"  X............ ",
+" .............. ",
+" .............. ",
+" .............  ",
+"  XX.......X.   ",
+"                ",
+"                ",
+"                ",
+"                "
+};

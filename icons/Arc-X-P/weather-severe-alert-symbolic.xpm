@@ -1,0 +1,26 @@
+/* XPM */
+static char *weather_severe_alert_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #ED4737",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"     oooX       ",
+"    XXXXXXX     ",
+"    XXXXXXXoo   ",
+"   XXXXXXXXXXX  ",
+"  oXXXXXXXXXXXX ",
+" XXXXXXXXXXXXXX ",
+" XXXXXXX    XXX ",
+" XXXXXXX .. XX  ",
+"  ooXXXX .. X   ",
+"         ..     ",
+"         ..     ",
+"                ",
+"         ..     ",
+"         ..     ",
+"                "
+};

@@ -1,0 +1,26 @@
+/* XPM */
+static char *channel_secure_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"     X.XXoo     ",
+"    .XXXXXXX    ",
+"    oX    Xo    ",
+"    XX    XX    ",
+"    XX    XX    ",
+"   .XXXXXXXX.   ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"   XXXXXXXXXX   ",
+"                ",
+"                ",
+"                "
+};

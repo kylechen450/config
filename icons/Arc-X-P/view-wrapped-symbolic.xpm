@@ -1,0 +1,26 @@
+/* XPM */
+static char *view_wrapped_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"    X.XXXXoo    ",
+"   .XXXXXXXXX   ",
+"   oX      Xo   ",
+"   XX      XX   ",
+"   XX    XXXXXX ",
+"   XX    XXXXX. ",
+"   XX     XXXX  ",
+"   XX      ..   ",
+"   XX           ",
+"   XX           ",
+"   XX           ",
+"   oX           ",
+"   oXXXXXX      ",
+"    ooXXXX      ",
+"                "
+};

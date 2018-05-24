@@ -1,0 +1,26 @@
+/* XPM */
+static char *dialog_warning_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #FF8F00",
+"X c #FF9000",
+"o c #FF9100",
+/* pixels */
+"                ",
+"     XXXXXo     ",
+"   XXXXXXXXXo   ",
+"  XXXXX  XXXXX  ",
+" XXXXXX  XXXXXo ",
+".XXXXXX  XXXXXXo",
+"XXXXXXX  XXXXXXX",
+"XXXXXXX  XXXXXXX",
+"oXXXXXX  XXXXXXX",
+"XXXXXXXXXXXXXXXX",
+" XXXXXX  XXXXXX ",
+"  XXXXX  XXXXX  ",
+"   XXXXXXXXXX   ",
+"    XXXXXX.     ",
+"   oX           ",
+"                "
+};

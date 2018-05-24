@@ -1,0 +1,26 @@
+/* XPM */
+static char *audio_volume_high_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"             X  ",
+"     .      oX  ",
+"    .X       XX ",
+"   .XX    oo XX ",
+".XXXXX  X .XX Xo",
+"oXXXXX oXo X. X.",
+"XXXXXX. Xo XX X.",
+"XXXXXX  Xo Xo XX",
+"XXXXXX XXo X. Xo",
+".XXXXX  X XXX X.",
+"    XX    oo XX ",
+"     X       XX ",
+"     .      .X  ",
+"             o  ",
+"                "
+};

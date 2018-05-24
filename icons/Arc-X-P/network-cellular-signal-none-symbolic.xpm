@@ -1,0 +1,23 @@
+/* XPM */
+static char *network_cellular_signal_none_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 1 1 ",
+"  c None",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                "
+};

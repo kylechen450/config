@@ -1,0 +1,26 @@
+/* XPM */
+static char *mail_replied_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"                ",
+"                ",
+"      X         ",
+"    .XX         ",
+"   oXXXXXoX.    ",
+" XXXXXXXXXXXo   ",
+" XXXXXXXXXXXXX  ",
+"   oXXXXXXXXXX  ",
+"    XXX    oXX  ",
+"      X     XX  ",
+"            XX  ",
+"            Xo  ",
+"           .X   ",
+"                ",
+"                ",
+"                "
+};

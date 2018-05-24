@@ -1,0 +1,26 @@
+/* XPM */
+static char *security_high_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #BDBDBD",
+"X c #BEBEBE",
+"o c #BFBFBF",
+/* pixels */
+"       XX.      ",
+"    XXXXXXXo.   ",
+"  XXXoX XXXXXX  ",
+"  XX    XXXXXX  ",
+"  XX    XXXXXX  ",
+"  XX    XXXXXX  ",
+"  XX    XXXXXX  ",
+"  XXXXXX    XX  ",
+"  XXXXXX    XX  ",
+"  XXXXXX    X.  ",
+"  XXXXXX   XXX  ",
+"   oXXXX  XXX   ",
+"    XXXX XXo    ",
+"     oXXXXX     ",
+"       .X       ",
+"                "
+};

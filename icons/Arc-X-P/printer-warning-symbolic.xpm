@@ -1,0 +1,27 @@
+/* XPM */
+static char *printer_warning_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1 ",
+"  c None",
+". c #F57800",
+"X c #F57900",
+"o c gray",
+"O c #BFBFBF",
+/* pixels */
+"                ",
+"    oooooooo    ",
+"    oooooooo    ",
+"                ",
+" OooooooooooooO ",
+" oooooooooooooo ",
+" oooooooooooooo ",
+" oooooo         ",
+" oo     .XXXXXX.",
+" Oo ooo XXX  XXX",
+"    ooo XXX  XXX",
+"    ooo XXX  XXX",
+"    ooo XXX  XXX",
+"    ooo XXXXXXXX",
+"        XXX  XXX",
+"        .XXXXXX."
+};

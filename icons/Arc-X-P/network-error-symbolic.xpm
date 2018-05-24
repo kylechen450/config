@@ -1,0 +1,27 @@
+/* XPM */
+static char *network_error_symbolic[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1 ",
+"  c None",
+". c #EF2828",
+"X c #EF2929",
+"o c #BDBDBD",
+"O c #BEBEBE",
+/* pixels */
+"                ",
+"                ",
+"  OOOOOOOOOOOO  ",
+" OOOOOOOOOOOOOo ",
+" OO          OO ",
+" OO          OO ",
+" OO          OO ",
+" OO          OO ",
+" OO           O ",
+" OO        .X.  ",
+" OO       XXXXX ",
+" OOOOo   XXXXXX.",
+"  OOOOOO X     X",
+"     OOO XXXXXX.",
+"          XXXXX ",
+"           .X.  "
+};
