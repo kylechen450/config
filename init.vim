@@ -15,7 +15,7 @@ set mouse=a
 set showtabline=0
 "set guioptions+=e"
 "设置字体"
-set guifont=Monaco:h13
+"set guifont=Monaco:h13
 
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
