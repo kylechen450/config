@@ -3,6 +3,8 @@ import XMonad.Layout.Spacing
 import XMonad.Config.Desktop
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.SetWMName
+import XMonad.Util.Cursor
 
 --main = xmonad def
 main = xmonad =<< xmobar desktopConfig 
@@ -13,7 +15,7 @@ main = xmonad =<< xmobar desktopConfig
     , normalBorderColor = "#000000"
     , layoutHook = avoidStruts $ myLayout
     , manageHook=manageHook defaultConfig <+> manageDocks
-    , startupHook = spawn "~/.fehbg &"
+    , startupHook = spawn "~/.fehbg &" <+> setWMName "LG3D" <+> setDefaultCursor xC_left_ptr
     }
 
 myLayout = tiled ||| Mirror tiled ||| Full

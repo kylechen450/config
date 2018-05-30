@@ -2,18 +2,18 @@
 Config { 
 
    -- appearance
-     font =         "xft:inconsolata:size=12:bold:antialias=true"
+     font =         "xft:inconsolata:size=12:antialias=true"
    , bgColor =      "#073642"
-   , fgColor =      "#657b83"
+   , fgColor =      "#93a1a1"
    , position =     Top
---   , alpha = 160
+   , alpha = 0
 --   , border =       BottomB
 --   , borderColor =  "#646464"
 
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " <icon=/home/cb/config/icons/archlinux.xpm/> %battery%  %multicpu%  %coretemp%  %memory%  %dynnetwork% }{ %YSCB%  %date%  %kbd% "
+   , template = " <icon=/home/cb/config/icons/archlinux.xpm/>  %StdinReader% } { %YSCB%  %multicpu% %coretemp%  %memory%  %dynnetwork%  %battery%  %date% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -40,69 +40,66 @@ Config {
    , commands = 
 
         -- weather monitor
-        [ Run Weather "YSCB" [ "--template", "<skyCondition> | <fc=#4682B4><tempC></fc>°C | <fc=#4682B4><rh></fc>% | <fc=#4682B4><pressure></fc>hPa"
+        [ Run Weather "YSCB" [ "--template", "<icon=/home/cb/config/icons/weather.xpm/> <skyCondition> <fc=#4682B4><tempC></fc>°C"
                              ] 36000
 
         -- network activity monitor (dynamic interface resolution)
-        , Run DynNetwork     [ "--template" , "<icon=/home/cb/config/icons/wifi.xpm/> <dev>: <tx>kB/s|<rx>kB/s"
+        , Run DynNetwork     [ "--template" , "<icon=/home/cb/config/icons/wifi.xpm/> <tx>kB/s <rx>kB/s"
                              , "--Low"      , "1000"       -- units: B/s
                              , "--High"     , "5000"       -- units: B/s
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
+                             , "--low"      , "#2aa198"
+                             , "--normal"   , "#cb4b16"
+                             , "--high"     , "#d33682"
                              ] 10
 
         -- cpu activity monitor
-        , Run MultiCpu       [ "--template" , "<icon=/home/cb/config/icons/microchip.xpm/> <total0>%|<total1>%"
+        , Run MultiCpu       [ "--template" , "<icon=/home/cb/config/icons/microchip.xpm/> <total0>% <total1>% <total2>% <total3>%"
                              , "--Low"      , "50"         -- units: %
                              , "--High"     , "85"         -- units: %
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
+                             , "--low"      , "#2aa198"
+                             , "--normal"   , "#cb4b16"
+                             , "--high"     , "#d33682"
                              ] 10
 
         -- cpu core temperature monitor
-        , Run CoreTemp       [ "--template" , "<icon=/home/cb/config/icons/temperature.xpm/> <core0>°C|<core1>°C"
+        , Run CoreTemp       [ "--template" , "<core0>°C"
                              , "--Low"      , "70"        -- units: °C
                              , "--High"     , "80"        -- units: °C
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
+                             , "--low"      , "#2aa198"
+                             , "--normal"   , "#cb4b16"
+                             , "--high"     , "#d33682"
                              ] 50
                           
         -- memory usage monitor
-        , Run Memory         [ "--template" ,"Mem: <usedratio>%"
+        , Run Memory         [ "--template" ,"<icon=/home/cb/config/icons/ram.xpm/> <usedratio>%"
                              , "--Low"      , "20"        -- units: %
                              , "--High"     , "90"        -- units: %
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
+                             , "--low"      , "#2aa198"
+                             , "--normal"   , "#cb4b16"
+                             , "--high"     , "#d33682"
                              ] 10
 
         -- battery monitor
         , Run Battery        [ "--template" , "<acstatus>"
                              , "--Low"      , "10"        -- units: %
                              , "--High"     , "80"        -- units: %
-                             , "--low"      , "darkred"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkgreen"
+                             , "--low"      , "#d33682"
+                             , "--normal"   , "#cb4b16"
+                             , "--high"     , "#2aa198"
 
                              , "--" -- battery specific options
                                        -- discharging status
-                                       , "-o"	, " <icon=/home/cb/config/icons/battery-three-quarters-f.xpm/><left>% (<timeleft>) "
+                                       , "-o"	, "<icon=/home/cb/config/icons/battery-three-quarters-f.xpm/> <left>% (<timeleft>)"
                                        -- AC "on" status
-                                       , "-O"	, " <icon=/home/cb/config/icons/battery-charging.xpm/> "
+                                       , "-O"	, "<icon=/home/cb/config/icons/battery-charging.xpm/> <left>%"
                                        -- charged status
-                                       , "-i"	, " <icon=/home/cb/config/icons/battery-charging-f.xpm/> "
+                                       , "-i"	, "<icon=/home/cb/config/icons/battery-charging-f.xpm/> <left>%"
                              ] 50
 
         -- time and date indicator 
         --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
-        , Run Date           "<fc=#ABABAB>%F (%a) %T</fc>" "date" 10
+        , Run Date           "<fc=#ABABAB>%A, %d %B %T</fc>" "date" 10
 
-        -- keyboard layout indicator
-        , Run Kbd            [ ("us(dvorak)" , "<fc=#00008B>DV</fc>")
-                             , ("us"         , "<fc=#8B0000>US</fc>")
-                             ]
+       	, Run StdinReader 
         ]
    }
