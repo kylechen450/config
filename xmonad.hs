@@ -6,16 +6,18 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.SetWMName
 import XMonad.Util.Cursor
 
+
 --main = xmonad def
 main = xmonad =<< xmobar desktopConfig 
-    { terminal    = "xfce4-terminal"
-    , modMask     = mod1Mask 
+    { terminal = "xfce4-terminal"
+    , modMask = mod1Mask 
     , borderWidth = 0
     , focusedBorderColor = "#c9c9c9"
     , normalBorderColor = "#000000"
     , layoutHook = avoidStruts $ myLayout
     , manageHook=manageHook defaultConfig <+> manageDocks
-    , startupHook = spawn "~/.fehbg &" <+> setWMName "LG3D" <+> setDefaultCursor xC_left_ptr
+    , startupHook = myStartupHook
+    , workspaces = myWorkspaces
     }
 
 myLayout = tiled ||| Mirror tiled ||| Full
@@ -25,3 +27,12 @@ myLayout = tiled ||| Mirror tiled ||| Full
   	 	 ratio = 1/2
   	 	 delta = 3/100
 
+
+myStartupHook = do
+              	 spawn "~/.fehbg &"
+		 setWMName "LG3D"
+		 setDefaultCursor xC_left_ptr
+		 spawn "xrandr --dpi 96"
+
+myWorkspaces :: [WorkspaceId]
+myWorkspaces = ["1:Home", "2:Web", "3:Code","4","5","6","7","8","9:Terminal"]
