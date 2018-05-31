@@ -5,16 +5,17 @@ Config {
      font =         "xft:inconsolata:size=12:antialias=true"
    , bgColor =      "#073642"
    , fgColor =      "#93a1a1"
-   , position =     Top
+   , position =     TopSize C 99 25
    , alpha = 0
 --   , border =       BottomB
 --   , borderColor =  "#646464"
-
+   ,textOffset = 20
    -- layout
+
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " <icon=/home/cb/config/icons/archlinux.xpm/>  %StdinReader% } { %YSCB%  %multicpu% %coretemp%  %memory%  %dynnetwork%  %battery%  %date% "
-
+   , template = "<fc=#1793d1><fn=1></fn></fc>  %StdinReader% } { %YSCB%  %multicpu% %coretemp%  %memory%  %dynnetwork%  %battery%  %date% "
+	
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
    , hideOnStart =      False   -- start with window unmapped (hidden)
@@ -22,6 +23,8 @@ Config {
    , overrideRedirect = False    -- set the Override Redirect flag (Xlib)
    , pickBroadest =     False   -- choose widest display (multi-monitor)
    , persistent =       True    -- enable/disable hiding (True = disabled)
+   , additionalFonts = ["xft:font\-linux:size=16:antialias=true"
+		       ]
 
    -- plugins
    --   Numbers can be automatically colored according to their value. xmobar
