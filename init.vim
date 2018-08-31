@@ -23,7 +23,7 @@ set showtabline=0
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
-
+Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
