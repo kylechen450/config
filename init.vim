@@ -50,3 +50,5 @@ nmap <silent> <C-T> :NERDTreeToggle<CR>
 let g:indentLine_char='┆'
 let g:indentLine_enabled = 1
 
+highlight Comment cterm=italic
+
