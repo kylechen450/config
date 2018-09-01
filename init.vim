@@ -41,8 +41,8 @@ Plug 'vim-scripts/c.vim'
 " Initialize plugin system
 call plug#end()
 
-autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
-nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+" autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+" nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
 set background=dark
 colorscheme solarized
