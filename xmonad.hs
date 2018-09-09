@@ -9,7 +9,7 @@ import XMonad.Util.Cursor
 
 --main = xmonad def
 main = xmonad =<< xmobar desktopConfig 
-    { terminal = "xfce4-terminal"
+    { terminal = "urxvt"
     , modMask = mod1Mask 
     , borderWidth = 0
     , focusedBorderColor = "#c9c9c9"

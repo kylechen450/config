@@ -2,14 +2,14 @@
 Config { 
 
    -- appearance
-     font =         "xft:inconsolata:size=12:antialias=true"
+     font =         "xft:dank mono:size=12:antialias=true"
    , bgColor =      "#073642"
    , fgColor =      "#93a1a1"
    , position =     TopSize C 99 25
    , alpha = 0
 --   , border =       BottomB
 --   , borderColor =  "#646464"
-   ,textOffset = 20
+   ,textOffset = 18
    -- layout
 
    , sepChar =  "%"   -- delineator between plugin names and straight text

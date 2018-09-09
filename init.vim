@@ -24,9 +24,11 @@ call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 
+Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
@@ -39,12 +41,37 @@ Plug 'wikitopian/hardmode'
 " Initialize plugin system
 call plug#end()
 
-autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
-nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
+"autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
+"nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
+let g:pymode_python = 'python3'
+
+syntax enable
 set background=dark
 colorscheme solarized
+call togglebg#map("<F5>")
 nmap <silent> <C-T> :NERDTreeToggle<CR>
 let g:indentLine_char='┆'
 let g:indentLine_enabled = 1
+
+highlight Comment cterm=italic
+
+noremap <silent> <ScrollWheelDown> :call comfortable_motion#flick(40)<CR>
+noremap <silent> <ScrollWheelUp>   :call comfortable_motion#flick(-40)<CR>
+
+
+  if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+  endif
+
+  " powerline symbols
+  let g:airline_left_sep = ''
+  let g:airline_left_alt_sep = ''
+  let g:airline_right_sep = ''
+  let g:airline_right_alt_sep = ''
+  let g:airline_symbols.branch = ''
+  let g:airline_symbols.readonly = ''
+  let g:airline_symbols.linenr = '☰'
+  let g:airline_symbols.maxlinenr = ''
+
 
