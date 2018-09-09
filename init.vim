@@ -38,6 +38,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'wikitopian/hardmode'
+Plug 'vim-scripts/c.vim'
 " Initialize plugin system
 call plug#end()
 
