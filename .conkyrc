@@ -54,7 +54,8 @@ conky.config = {
 
     own_window_transparent = true,
     own_window_argb_visual = true,
-
+    double_buffer = true,
+	
     stippled_borders = 0,
     update_interval = 2.0,
     uppercase = false,
