@@ -39,6 +39,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'wikitopian/hardmode'
 Plug 'vim-scripts/c.vim'
+Plug 'xuhdev/vim-latex-live-preview'
 " Initialize plugin system
 call plug#end()
 
