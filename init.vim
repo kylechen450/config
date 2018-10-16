@@ -46,7 +46,6 @@ call plug#end()
 "autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 "nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
-let g:pymode_python = 'python3'
 
 syntax enable
 set background=dark
