@@ -89,5 +89,6 @@ colorscheme solarized8_high
 "-- vim settings --
 autocmd Filetype css setlocal tabstop=4
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype xhtml setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
