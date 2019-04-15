@@ -46,6 +46,10 @@ Plug 'lifepillar/vim-solarized8'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-commentary'
 Plug 'neomake/neomake'
+Plug 'mhinz/vim-startify'
+Plug 'ap/vim-css-color'
+
+Plug 'ryanoasis/vim-devicons'
 " Initialize plugin system
 call plug#end()
 
@@ -92,3 +96,6 @@ autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype xhtml setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
+
+"-- Highlight cursor --
+set cursorline
