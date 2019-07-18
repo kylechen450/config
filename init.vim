@@ -97,6 +97,7 @@ autocmd Filetype css setlocal ts=4 sw=2 expandtab
 autocmd Filetype html setlocal ts=4 sw=2 expandtab
 autocmd Filetype xhtml setlocal ts=4 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=2 expandtab
+autocmd Filetype scss setlocal ts=4 sw=2 expandtab
 
 "-- Highlight cursor --
 set cursorline
