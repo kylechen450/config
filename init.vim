@@ -39,17 +39,27 @@ Plug 'jmcantrell/vim-virtualenv'
 Plug 'wikitopian/hardmode'
 Plug 'vim-scripts/c.vim'
 Plug 'xuhdev/vim-latex-live-preview'
-Plug 'othree/html5.vim'
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'lifepillar/vim-solarized8'
-Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-commentary'
 Plug 'neomake/neomake'
 Plug 'mhinz/vim-startify'
 Plug 'ap/vim-css-color'
-
 Plug 'ryanoasis/vim-devicons'
+Plug 'chiel92/vim-autoformat'
+Plug 'jbgutierrez/vim-better-comments'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'godlygeek/tabular'
+Plug 'mbbill/undotree'
+Plug 'digitaltoad/vim-jade'
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'wokalski/autocomplete-flow'
+" For func argument completion
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+        
 " Initialize plugin system
 call plug#end()
 
@@ -67,8 +77,8 @@ call plug#end()
 
 "-- Nerd Tree--
 nmap <silent> <C-T> :NERDTreeToggle<CR>
-let g:indentLine_char='┆'
-set list lcs=tab:\┆\ 
+let g:indentLine_char='¦'
+set list lcs=tab:\¦\ 
 let g:indentLine_enabled = 1
 
 highlight Comment cterm=italic
@@ -96,8 +106,37 @@ setlocal smartindent
 autocmd Filetype css setlocal ts=4 sw=2 expandtab
 autocmd Filetype html setlocal ts=4 sw=2 expandtab
 autocmd Filetype xhtml setlocal ts=4 sw=2 expandtab
+autocmd Filetype pug setlocal ts=4 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=2 expandtab
 autocmd Filetype scss setlocal ts=4 sw=2 expandtab
 
 "-- Highlight cursor --
 set cursorline
+
+"-- disable the fallback autoformat --
+noremap <F3> :Autoformat<CR>
+let g:autoformat_autoindent = 0
+let g:autoformat_retab = 0
+let g:autoformat_remove_trailing_spaces = 0
+
+"-- enable rainbow parentheses --
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+"-- Neomake settings --
+autocmd! BufWritePost,BufEnter * Neomake
+" let g:neomake_open_list = 2 " auto open error window
+
+"-- deoplete settings --
+let g:deoplete#enable_at_startup = 1
+
+"-- neosnippet --
+let g:neosnippet#enable_completed_snippet = 1
+
+"-- autocomplete flow
+" let g:autocomplete_flow#insert_paren_after_function = 1
+
+"-- undotree --
+nnoremap <F5> :UndotreeToggle<cr>
