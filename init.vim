@@ -140,3 +140,7 @@ let g:neosnippet#enable_completed_snippet = 1
 
 "-- undotree --
 nnoremap <F5> :UndotreeToggle<cr>
+
+"-- remap copy, paste on MacOS
+vnoremap <C-c> :w !pbcopy<CR><CR>
+noremap <C-v> :r !pbpaste<CR><CR>
