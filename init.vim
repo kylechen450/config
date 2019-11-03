@@ -28,7 +28,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'scrooloose/nerdtree'
 "Plug 'altercation/vim-colors-solarized'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'yggdroot/indentline'
 Plug 'klen/python-mode'
@@ -144,3 +144,7 @@ nnoremap <F5> :UndotreeToggle<cr>
 "-- remap copy, paste on MacOS
 vnoremap <C-c> :w !pbcopy<CR><CR>
 noremap <C-v> :r !pbpaste<CR><CR>
+
+" -- CtrlP settings
+let g:ctrlp_max_files=0
+set wildignore+=*/.git/*,*/node_modules/*
