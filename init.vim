@@ -15,7 +15,7 @@ set guioptions-=r
 set guioptions-=L
 set guioptions-=b
 "藏顶部标签栏"
-set showtabline=0
+"set showtabline=0
 "set guioptions+=e"
 
 " Specify a directory for plugins
@@ -53,6 +53,7 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
 Plug 'digitaltoad/vim-jade'
+Plug 'jistr/vim-nerdtree-tabs'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'wokalski/autocomplete-flow'
@@ -76,7 +77,11 @@ call plug#end()
 "call togglebg#map("<F5>")
 
 "-- Nerd Tree--
-nmap <silent> <C-T> :NERDTreeToggle<CR>
+" nmap <silent> <C-T> :NERDTreeToggle<CR>
+
+"-- Nerd tree tabs
+map <silent> <C-T> <plug>NERDTreeTabsToggle<CR>
+
 let g:indentLine_char='¦'
 set list lcs=tab:\¦\ 
 let g:indentLine_enabled = 1
