@@ -54,6 +54,7 @@ Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
 Plug 'digitaltoad/vim-jade'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'metakirby5/codi.vim'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'wokalski/autocomplete-flow'
